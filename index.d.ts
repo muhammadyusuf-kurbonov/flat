@@ -11,6 +11,7 @@ export interface UnflattenOptions {
   delimiter?: string;
   object?: boolean;
   overwrite?: boolean;
+  overwriteOnlyNulls?: boolean;
   transformKey?: (key: string) => string;
 }
 
